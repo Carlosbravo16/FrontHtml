@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c26a7d38a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/eps.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a su EPS<br>Introdusca sus datos</h1>
+        <div class="logo">
+            <i class="fa-solid fa-house-medical"></i>
+        </div>
+        <nav>
+            <div class="ingreso">
+                <article class="ingreso-box">
+                    <form name="formRegistro" method="post" action="">
+                        <label>Nombre: </label> <br>
+                        <input type="text" placeholder="Ingrese su nombre"> <br>
+                        <label>Apellido: </label> <br>
+                        <input type="text" placeholder="Ingrese su apellido"> <br>
+                        <label for="disabledSelect" class="form-label">Tipo de documento</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Selecciona</option>
+                            <option>Cedula</option>
+                            <option>Tarjeta de identidad</option>
+                            <option >Cedula Extranjeria</option>
+                        </select><br>
+                        <label for="fecha de nacimiento" class="form-label">Fecha de nacimiento</label><br>
+        	            <input type="text" class="form-control" id="fecha de nacimiento"><br>
+                        <label>direccion: </label> <br>
+                        <input type="text" placeholder="Ingrese su direccion"> <br>
+                        <label>Email: </label> <br>
+                        <input type="email" placeholder="Ingrese su Email"> <br>
+                        <label>Telefono: </label> <br>
+                        <input type="number" placeholder="Ingrese su numero de Telefono"> <br>
+                        <td>Elija genero:</td><br>
+	                    <td><input type="radio" name="guardado">Masculino
+                        <td><input type="radio" name="guardado">Femenino 
+                    </form><br>
+                    <i class="fa-solid fa-user" style="color: #0d0d21;"></i>
+                    <input type="text" placeholder="Usuario"><br>
+                </article>
+                <article class="ingreso-box">
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input type="password" placeholder="contraseña"><br>
+                </article>
+            </div>
+        </nav>
+        <div class="login">
+            
+            <a href="index_eps1.html" target="black"><button type="submit" class="btn btn-primary">Guardar </button></a>
+        </div>
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+
+    text-align: center;
+    background:linear-gradient(rgb(162, 94, 250),rgb(170, 116, 214),rgb(188, 163, 212));
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    background:rgb(136, 138, 248);
+    width: 276px;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(129, 103, 247);
+    box-shadow: 2px 2px  rgb(76, 73, 243);
+    border-radius:75px ;
+    padding: 6rem;
+    margin: 10px auto;
+    margin-top: 109px;
+}
+.logo{ 
+    font-size: 10rem;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    left: 100px;
+    top: 42px;
+    color: rgb(176, 193, 207);
+}
+.ingreso-box{
+    margin: 1rem;
+    
+   
+}
+.login{
+    display: flex;
+    background:rgb(136, 136, 248);
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    box-shadow:  2px 2px 2px rgb(104, 73, 243);
+    border-radius: 75px;
+    padding: 1rem;
+    margin: -10px auto;
+}
+.brespa{
+    color: rgb(5, 8, 10);
+    padding: 1rem;
+    margin:1px;
+    text-align: left;
+    
+}
+.brespa a{
+    text-align:center;
+    color: rgb(5, 8, 10);
+    padding: 1rem;
+    font-size: 12px;
+}
