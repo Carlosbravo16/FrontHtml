@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/recursos.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav  nav-fill  ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ofertas Laborales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil de candidato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Pruebas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Candidatos seleccionados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contrato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Servicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Quienes Somos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="mision.html">Mision</a></li>
+                            <li><a class="dropdown-item" href="vision.html">Vision</a></li>
+                            <li><a class="dropdown-item" href="#">Objetivos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Registrarse.html">Registrarse</a>
+                    </li>
+                </ul><br>
+            </div><br>
+        </div>
+
+
+
+    </nav>
+
+    <div class="container-fluid">
+        <h1 class="text-center">Recursos</h1>
+        <hr>
+        <div class="caja input-group mb-3">
+            <input type="text" class="form-control" placeholder="Titulo de Trabajo">
+            <span class="input-group-text" style="margin-right: 2%;">@</span>
+    
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Todas las Categorias">
+            <datalist id="datalistOptions">
+                <option value="Ingeniero o Licenciado">
+                <option value="Tecnico o ayudante con titulo">
+                <option value="Administrativa">
+                <option value="Especialistas">
+                <option value="Auxiliares">
+            </datalist>
+    
+        </div>
+    </div>
+    
 </body>
+
 </html>

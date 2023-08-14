@@ -1,0 +1,26 @@
+body{
+    color: black;
+    text-align:justify;
+    background-image: url('../img/imagen2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ingreso-box{
+    margin: 1rem; 
+   
+}
+
+.brespa{
+    color: rgb(5, 8, 10);
+    padding: 1rem;
+    margin:1px;
+    text-align: left;
+    
+}
+.brespa a{
+    text-align:center;
+    color: rgb(5, 8, 10);
+    padding: 1rem;
+    font-size: 12px;
+}

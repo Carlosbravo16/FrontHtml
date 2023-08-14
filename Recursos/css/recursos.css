@@ -1,0 +1,18 @@
+body{
+    color:azure;
+    background-image: url('../img/imagen.jpg');
+    background-size: cover;
+}
+.nav{
+   background-color: rgb(4, 5, 46);
+   text-align: center;
+}
+.form-label{
+    text-align: center;
+}
+
+.caja{
+    align-items: center;
+    width:550px;
+
+}
