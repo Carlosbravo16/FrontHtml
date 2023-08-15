@@ -1,13 +1,7 @@
 body{
-   background-color:azure;
+   background-color:rgb(64, 169, 211);
    color:black;
    text-align: center; 
+   font-size: 10px;
 }
-div{
-  displey:flex;
-  justyfaid-flex:center;
-}
-nav{
-   background-color: blue;
-   text-align: center;
 
