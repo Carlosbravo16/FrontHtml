@@ -1,0 +1,13 @@
+body{
+   background-color:azure;
+   color:black;
+   text-align: center; 
+}
+div{
+  displey:flex;
+  justyfaid-flex:center;
+}
+nav{
+   background-color: blue;
+   text-align: center;
+
